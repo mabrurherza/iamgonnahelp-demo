@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .download {
+        @apply bg-white rounded-lg flex p-4 w-60 items-center gap-3 relative
+    }
+}

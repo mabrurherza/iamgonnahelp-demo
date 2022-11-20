@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="relative h-full font-inter">
+    <div class="absolute -z-10 h-full w-full bg-gradient-to-br from-[#5D79E5] to-[#D94F99]">
+        <img class="w-full absolute bottom-0" src="/img/wavvy-1.png" alt="">
+        <img class="w-full absolute bottom-0" src="/img/bubbles.png" alt="">
+        <img class="w-full absolute bottom-0" src="/img/wavvy-2.png" alt="">
+    </div>
+    <header class="m-auto max-w-[1440px] py-10 px-[3vw]">
+        <Nav class="p-2 bg-white rounded-full flex justify-between items-center">
+            <img class="w-32 lg:w-40" src="./img/logo.png" alt="">
+            <ul class="mr-10 hidden md:block">
+                <li>
+                    <a href="/">About</a>
+                </li>
+            </ul>
+            <div class="hamburger flex gap-1 flex-col md:hidden cursor-pointer mr-5">
+                <div class="h-[3px] w-6 bg-black rounded-lg"></div>
+                <div class="h-[3px] w-6 bg-black rounded-lg"></div>
+                <div class="h-[3px] w-6 bg-black rounded-lg"></div>
+            </div>
+        </Nav>
+    </header>
+    <main class="max-w-[1440px] py-10 px-[3vw] m-auto flex flex-col lg:flex-row gap-10 md:gap-16 items-center">
+        <div ><h1 class="md:hidden text-6xl text-white font-baloo text-center md:text-left">Exercise your <span class="font-bold"> real life situations</span>  skills</h1></div>
+
+        <img class="max-w-sm" src="/img/mockup.png" alt="Mockup">
+        <div class="flex flex-col gap-10 flex-wrap">
+            <div ><h1 class="hidden md:block text-7xl text-white font-baloo text-center md:text-left">Exercise your <span class="font-bold"> real life situations</span>  skills</h1></div>
+            <div class="flex flex-col md:flex-row gap-6 flex-wrap items-center">
+                <button class="download group">
+                    <img class="h-10 " src="/img/apple-logo.svg" alt="">
+                    <div class="flex flex-col justify-start items-start">
+                        <p class="-mb-1 text-sm">Download on the</p>
+                        <p class="text-2xl font-bold">App Store</p>
+                    </div>
+                    <div class="opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500 bg-gradient-to-br from-[#839bfa] to-[#f67abc] absolute -z-10  rounded-lg blur-md w-full h-full scale-110 -m-5"></div>
+                </button>
+                <button class="download group">
+                    <img class="h-10 " src="/img/google-logo.svg" alt="">
+                    <div class="flex flex-col justify-start items-start">
+                        <p class="-mb-1 text-sm">Get it on</p>
+                        <p class="text-2xl font-bold">Google Play</p>
+                    </div>
+                    <div class="opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500 bg-gradient-to-br from-[#839bfa] to-[#f67abc] absolute -z-10  rounded-lg blur-md w-full h-full scale-110 -m-5"></div>
+                </button>
+                <button class="download group">
+                    <img class="h-10 " src="/img/web-logo.svg" alt="">
+                    <div class="flex flex-col justify-start items-start">
+                        <p class="text-2xl font-bold">Try on web</p>
+                    </div>
+                    <div class="opacity-0 group-hover:opacity-100 transition-all ease-in-out duration-500 bg-gradient-to-br from-[#839bfa] to-[#f67abc] absolute -z-10  rounded-lg blur-md w-full h-full scale-110 -m-5"></div>
+                </button>
+                
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
